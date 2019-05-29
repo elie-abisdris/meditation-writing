@@ -23,7 +23,7 @@ function nextPrevBookPage (e) {
 }
 
 function refreshBookPage () {
-    document.querySelector('.book-page-img').setAttribute('src',  'images/page-' + currentPageNum + '.gif'  ) ;
+    document.querySelector('.book-page-img').setAttribute('src',  './images/page-' + currentPageNum + '.gif'  ) ;
 
 }
 
